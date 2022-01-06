@@ -1,0 +1,63 @@
+#main {
+  background-color: lightskyblue;
+}
+#title {
+  padding: 0em;
+  margin: 0;
+  position: sticky;
+  text-align: center;
+  color: Red;
+  background-color: lightgoldenrodyellow;
+  font-size: 35px;
+  font-style: oblique;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#img-div {
+  width: 540px;
+  height: 540px;
+  margin: 0 auto;
+  border: 0px round;
+  image-rendering: optimizeQuality;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#img-caption {
+  text-align: center;
+  font-weight: normal;
+}
+#caption{
+  font-family: 'Courier New', Courier, monospace;
+  display: grid;
+  grid-template-rows: 32px ;
+  text-align: center;
+}
+#event{
+  list-style-type: square;
+  display: inline-block;
+}
+li{
+  font-weight: bold;
+  color:crimson;
+}
+#tribute-info{
+  display:block;
+  block-size: auto ;
+}
+p{
+  background-color: lightgreen;
+}
+#quote{
+  font-size: large;
+  font-weight: bold;
+  font-style: oblique;
+}
+span{
+  font-size: large;
+}
+a{
+  font-style: normal;
+  color: green;
+}
